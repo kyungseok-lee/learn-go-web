@@ -12,7 +12,8 @@ import (
 // func Test...(t *testing.T)
 
 /*
-	go get github.com/smartystreets/goconvey
+	$ go get github.com/smartystreets/goconvey
+	$ goconvey
 */
 
 func TestIndexPathHandler(t *testing.T) {
