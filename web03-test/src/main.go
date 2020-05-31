@@ -1,9 +1,8 @@
 package main
 
 import (
-	"net/http"
-
 	"myapp"
+	"net/http"
 )
 
 func main() {

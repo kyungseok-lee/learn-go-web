@@ -9,6 +9,12 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
+// func Test...(t *testing.T)
+
+/*
+	go get github.com/smartystreets/goconvey
+*/
+
 func TestIndexPathHandler(t *testing.T) {
 	assert := assert.New(t)
 
