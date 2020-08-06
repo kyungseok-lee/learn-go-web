@@ -5,5 +5,14 @@ import (
 )
 
 func Hello() {
-	fmt.Println("hello")
+	fmt.Println("Hello")
+}
+
+func Say() {
+	fmt.Println("Say")
+	foo()
+}
+
+func foo() {
+	fmt.Println("foo")
 }

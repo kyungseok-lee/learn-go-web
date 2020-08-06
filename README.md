@@ -3,6 +3,12 @@
   - github: https://github.com/tuckersGo/goWeb
   - youtube: https://www.youtube.com/channel/UCZp_ftx6UB_32VfVmlS3o_A
 
+## go mod
+```
+go mod init github.com/kyungseok-lee/learn-go-web
+go mod tidy
+go list -m all
+```
 
 ## Test
 - [GoConvey](https://github.com/smartystreets/goconvey)
